@@ -16,7 +16,9 @@
     text-transform: uppercase;
 }
 
-.search-submit {
+.search-submit,
+button,
+input[type="submit"] {
     appearance: none;
     padding: 5px 10px;
     background-color: black;
@@ -32,4 +34,14 @@
     &:hover {
         transform: translate(0, 2px);
     }
+}
+
+textarea {
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px black solid;
+    box-shadow: 2px 2px 0 black;
+    display: block;
 }

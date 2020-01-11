@@ -1,8 +1,8 @@
 <article @php post_class() @endphp>
   <header>
-    <h1 class="entry-title">{!! get_the_title() !!} - {{ __('By', 'sage') }} <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author" class="fn">
+    <h2 class="entry-title">{!! get_the_title() !!} - {{ __('By', 'sage') }} <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author" class="fn">
     {{ get_the_author() }}
-  </a></h1>
+  </a></h2>
     @include('partials/entry-meta')
   </header>
   <div class="entry-content">

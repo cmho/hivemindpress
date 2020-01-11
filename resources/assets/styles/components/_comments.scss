@@ -3,3 +3,34 @@
 // TODO: .comment-form p {}
 // TODO: .comment-form input {}
 // TODO: .comment-form textarea {}
+
+.comment-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        p {
+            font-size: 16px;
+        }
+
+        .comment-metadata,
+        .comment-content,
+        .reply {
+            margin-left: 40px;
+        }
+    }
+
+    ol {
+        margin-left: 20px;
+    }
+}
+
+#commentform {
+    label {
+        display: block;
+    }
+    p {
+        font-size: 16px;
+    }
+}
