@@ -2,7 +2,7 @@
 
 @section('content')
 @php
-    $author = pods('work-author', get_queried_object()->term_id);
+    $author = pods_field('work-author', get_queried_object()->term_id);
     print_r($author);
 @endphp
   <h2></h2>
