@@ -1,7 +1,11 @@
 @extends('layouts.app')
+@php
+    $author = pods('work-author', get_queried_object()->term_id);
+    print_r($author);
+@endphp
 
 @section('content')
-  <h2>{{ pods('work-author', get_queried_object()->term_id, 'author_name') }} </h2>
+  <h2>{{  }} </h2>
   @if (!have_posts())
     No content to display yet.
   @endif
