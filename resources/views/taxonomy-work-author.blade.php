@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <h2>{{ pods_field_display('work-author', get_the_ID(), 'author_name') }} </h2>
+  <h2>{{ pods('work-author', get_the_ID(), 'author_name') }} </h2>
   @if (!have_posts())
     No content to display yet.
   @endif
