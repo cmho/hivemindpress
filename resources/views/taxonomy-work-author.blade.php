@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @php
     $author = pods('work-author', get_queried_object()->term_id);
-    print_r($author);
 @endphp
 
 @section('content')
