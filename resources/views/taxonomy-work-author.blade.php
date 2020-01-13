@@ -1,10 +1,10 @@
 @extends('layouts.app')
+
+@section('content')
 @php
     $author = pods('work-author', get_queried_object()->term_id);
 @endphp
-
-@section('content')
-  <h2>{{  }} </h2>
+  <h2></h2>
   @if (!have_posts())
     No content to display yet.
   @endif
