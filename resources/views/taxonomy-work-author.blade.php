@@ -3,6 +3,7 @@
 @section('content')
 @php
     $author = pods('work-author', get_queried_object()->term_id);
+    print_r($author);
 @endphp
   <h2></h2>
   @if (!have_posts())
