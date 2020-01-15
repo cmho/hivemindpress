@@ -104,6 +104,15 @@ main {
     }
 }
 
+nav.nav-primary {
+    ul {
+        list-style: none;
+        margin: 20px 0 50px;
+        padding: 0;
+        display: flex;
+    }
+}
+
 aside {
     min-width: 300px;
     width: 300px;
